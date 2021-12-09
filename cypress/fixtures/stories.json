@@ -1,0 +1,14 @@
+{
+  "hits": [
+    {
+      "objectID": "0",
+      "title": "DuckDuckGo",
+      "url": "https://duckduckgo.com"
+    },
+    {
+      "objectID": "1",
+      "title": "Google",
+      "url": "https://google.com"
+    }
+  ]
+}

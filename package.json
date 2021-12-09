@@ -1,0 +1,23 @@
+{
+  "name": "cy-hands-on-get-content-from-one-page-and-use-in-another",
+  "version": "1.0.0",
+  "description": "Sample project for a video of the cy.handsOn() playlist from the Talking About Testing YouTube channel.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:dependency": "cypress run --spec cypress/integration/test1.spec.js",
+    "test:dependant": "cypress run --spec cypress/integration/test2.spec.js"
+  },
+  "keywords": [
+    "Cypress.io",
+    "cy.handsOn",
+    "Talking About Testing",
+    "Modern Web Testing",
+    "Cypress anti-pattern"
+  ],
+  "author": "Walmyr Filho <walmyr@talkingabouttesting.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
